@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{E40FD37E-6EC8-4341-9E46-7B8A337F9E52}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="E:\RECUS\DAVID\UF2\Wwise(Recus)\Wwise(Recus)\Originals\SFX\UI\"/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">

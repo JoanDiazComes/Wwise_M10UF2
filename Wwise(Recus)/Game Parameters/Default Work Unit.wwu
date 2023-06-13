@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4C301C8A-018E-4344-874C-AF7E7C86888B}" SchemaVersion="110">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{4C301C8A-018E-4344-874C-AF7E7C86888B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4C301C8A-018E-4344-874C-AF7E7C86888B}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="MenuSlider_Volume" ID="{BE4182D2-6B6F-4E9C-80E3-33DC04F44F6E}"/>
+				<GameParameter Name="Time_OfDay" ID="{57E31383-10A4-43C2-82F0-09775EE1FD29}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

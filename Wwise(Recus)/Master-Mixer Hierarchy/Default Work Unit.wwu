@@ -9,6 +9,72 @@
 							<ObjectRef Name="System" ID="{DA0D26CF-513C-45BF-A940-BD481AE9B5A2}" WorkUnitID="{EFF1BA5A-C91D-40A3-AD36-F5A301F73EDE}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music Audio Bus" ID="{8DD72F64-87EE-43DB-85E8-7A793CA90F31}">
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{38A3ED10-97F0-4DFD-BFEF-9FAA5E71332F}" ShortID="1056944598">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="MenuSlider_Volume" ID="{BE4182D2-6B6F-4E9C-80E3-33DC04F44F6E}" WorkUnitID="{4C301C8A-018E-4344-874C-AF7E7C86888B}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{23F96B26-5528-44F1-A721-4206819A4F11}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<AuxBus Name="Cave" ID="{460C27B8-22BB-4B4A-BE5D-FCE232D6B8A5}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Church_Small_Wood" ID="{940CCB47-F031-4C6A-B0E6-726CAC418C02}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Dungeon" ID="{3A345483-D607-4D6B-9AE5-9CC3D732BE3F}"/>
+						<AuxBus Name="Dungeon_Entrance" ID="{5DE3F368-0EBC-4CB7-B836-9127011C7F2C}"/>
+						<AuxBus Name="Cave_Entrance" ID="{B9ABB49E-EFB1-4B38-BE04-7DB896B5F310}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Church_Small_Wood" ID="{940CCB47-F031-4C6A-B0E6-726CAC418C02}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Dungeon_Forge" ID="{FFE33FF3-2F54-40C7-BEF4-B450A26671A2}"/>
+						<AuxBus Name="Dungeon_Library" ID="{DD4D02D5-5B90-49EF-9DB5-31768ABE15F2}"/>
+						<AuxBus Name="Dungeon_Library_Statue" ID="{45E528DE-CDF0-495E-8B31-95A9EAAECBD3}"/>
+						<AuxBus Name="Dungeon_MezzanineRoom" ID="{4C578371-0BA7-4127-92B6-27FE4C0CDAE7}"/>
+						<AuxBus Name="Dungeon_MezzanineRoomEntrance" ID="{BDDFE120-E968-4BF5-BAC6-5941928C08A9}"/>
+						<AuxBus Name="Dungeon_PathToForge" ID="{538843FC-36D9-4CCB-9274-275633BD0791}"/>
+						<AuxBus Name="Dungeon_RoadToCore" ID="{93445B08-09ED-4A09-9AD0-0846A9262C1F}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

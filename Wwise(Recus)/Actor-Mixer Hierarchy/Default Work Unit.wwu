@@ -1,6 +1,480 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{EA6CBA6A-F4E4-4EC3-A1AB-EDE45754BE87}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{EA6CBA6A-F4E4-4EC3-A1AB-EDE45754BE87}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{EA6CBA6A-F4E4-4EC3-A1AB-EDE45754BE87}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Ambient_Background" ID="{5F6017E7-7A4D-4BFD-ABF9-5A4269EBA6C8}" ShortID="459794237">
+					<ChildrenList>
+						<Sound Name="Forest_night" ID="{C6F340D4-24C4-4863-84B0-14EB68EE7E3F}" ShortID="759335530">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FE92265-98BF-4345-A200-8399D2C25DA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F50FA56-03F1-478B-AD8F-EC0135ABF5D2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Forest_night" ID="{931AB38C-A5EB-4D91-88EE-C3E2974B0B6B}">
+									<Language>SFX</Language>
+									<AudioFile>Ambiente_Fondo\Forest_night.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="832947809"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{A8487E0E-1087-421C-B364-7D57CAC02822}" ShortID="479798876">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Time_OfDay" ID="{57E31383-10A4-43C2-82F0-09775EE1FD29}" WorkUnitID="{4C301C8A-018E-4344-874C-AF7E7C86888B}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{C65E9329-F80D-4B42-B0DB-3CBF60BC9CCE}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0.01524</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>6.22042</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>21.46046</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>26.12578</XPos>
+																		<YPos>-0.04312</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Forest_night" ID="{931AB38C-A5EB-4D91-88EE-C3E2974B0B6B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Forest_Day" ID="{8D708A23-77F5-41C3-B314-011E45D3BCD9}" ShortID="439986287">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FE92265-98BF-4345-A200-8399D2C25DA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F50FA56-03F1-478B-AD8F-EC0135ABF5D2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Forest_Day" ID="{D7EB1F04-B980-46FF-A8F0-83EBD96FC537}">
+									<Language>SFX</Language>
+									<AudioFile>Ambiente_Fondo\Forest_Day.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="284473334"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{C19E8B19-9FB8-4819-A4A9-09F9DA940864}" ShortID="5422339">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Time_OfDay" ID="{57E31383-10A4-43C2-82F0-09775EE1FD29}" WorkUnitID="{4C301C8A-018E-4344-874C-AF7E7C86888B}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{05BD0533-33C7-4A84-8F10-E17AAF016312}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>6.45369</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>13.58126</XPos>
+																		<YPos>0.00049</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>21.12352</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>31.23171</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Forest_Day" ID="{D7EB1F04-B980-46FF-A8F0-83EBD96FC537}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cave" ID="{48BDDB7A-5297-47D4-9E9D-C67D2DFB1209}" ShortID="1051376832">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FE92265-98BF-4345-A200-8399D2C25DA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F50FA56-03F1-478B-AD8F-EC0135ABF5D2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cave" ID="{0DF30569-D94C-4CB3-81F7-91551E868263}">
+									<Language>SFX</Language>
+									<AudioFile>Ambiente_Fondo\Cave.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="494719946"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cave" ID="{0DF30569-D94C-4CB3-81F7-91551E868263}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pueblo_Ambiental" ID="{A42CD91C-76A4-407A-A9B0-D9AF50B7EAAA}" ShortID="429186234">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FE92265-98BF-4345-A200-8399D2C25DA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F50FA56-03F1-478B-AD8F-EC0135ABF5D2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pueblo_Ambiental" ID="{3846C8C2-1D6B-4B45-9021-9D24CB621BAD}">
+									<Language>SFX</Language>
+									<AudioFile>Ambiente_Fondo\Pueblo_Ambiental.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="395495398"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pueblo_Ambiental" ID="{3846C8C2-1D6B-4B45-9021-9D24CB621BAD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Desert_Day" ID="{F85EC565-CBCF-480C-85F2-F8CCB94FBEEB}" ShortID="463968639">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FE92265-98BF-4345-A200-8399D2C25DA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F50FA56-03F1-478B-AD8F-EC0135ABF5D2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Desert_Day" ID="{1872AE3F-560B-438D-A265-8EC74DAB96A0}">
+									<Language>SFX</Language>
+									<AudioFile>Ambiente_Fondo\Desert_Day.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="185127463"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{4FBF9C4C-03FA-4E64-ADB5-F9B159873582}" ShortID="94964251">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Time_OfDay" ID="{57E31383-10A4-43C2-82F0-09775EE1FD29}" WorkUnitID="{4C301C8A-018E-4344-874C-AF7E7C86888B}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{828BBC3C-7391-4A10-8900-B81E704869A9}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>6.1945</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>13.6071760345169</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>21.69373</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Desert_Day" ID="{1872AE3F-560B-438D-A265-8EC74DAB96A0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Desert_Night" ID="{D4BF5868-6DDF-45D7-937A-3971510A1976}" ShortID="23418695">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FE92265-98BF-4345-A200-8399D2C25DA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F50FA56-03F1-478B-AD8F-EC0135ABF5D2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Desert_Night" ID="{A45A3F0B-5CBF-4117-9E0C-EFB5482065F6}">
+									<Language>SFX</Language>
+									<AudioFile>Ambiente_Fondo\Desert_Night.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="467977415"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{D2CF49AF-CD8F-40A5-96CA-DE9C6136DF9A}" ShortID="1055794121">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Time_OfDay" ID="{57E31383-10A4-43C2-82F0-09775EE1FD29}" WorkUnitID="{4C301C8A-018E-4344-874C-AF7E7C86888B}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{4F4D5CD7-F104-4032-8E26-7F36FD756DD5}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0.01524</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>6.30362</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>21.38841</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>25.088</XPos>
+																		<YPos>-0.08277</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Desert_Night" ID="{A45A3F0B-5CBF-4117-9E0C-EFB5482065F6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{15B04E8D-FD17-4461-BF93-3011353A88AC}" ShortID="185320419">
+					<ChildrenList>
+						<Sound Name="Inventory_Close" ID="{489E01BE-5113-4208-9D54-93A74C68B8AA}" ShortID="600791340">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FE92265-98BF-4345-A200-8399D2C25DA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F50FA56-03F1-478B-AD8F-EC0135ABF5D2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Inventory_Close" ID="{BA0CC29D-F697-43C7-B576-4C9049E5FF5A}">
+									<Language>SFX</Language>
+									<AudioFile>UI\Inventory_Close.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="608108360"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Inventory_Close" ID="{BA0CC29D-F697-43C7-B576-4C9049E5FF5A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Inventory_Open" ID="{9D88A665-42A1-471E-B533-04918282178F}" ShortID="85811455">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FE92265-98BF-4345-A200-8399D2C25DA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F50FA56-03F1-478B-AD8F-EC0135ABF5D2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Inventory_Open" ID="{8BDAEEEA-9AEF-49C8-8885-9F1001635A38}">
+									<Language>SFX</Language>
+									<AudioFile>UI\Inventory_Open.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="435017107"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Inventory_Open" ID="{8BDAEEEA-9AEF-49C8-8885-9F1001635A38}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Menu_close" ID="{3115D0C0-7E82-4BF2-BA58-5D6462E11629}" ShortID="12614508">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FE92265-98BF-4345-A200-8399D2C25DA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F50FA56-03F1-478B-AD8F-EC0135ABF5D2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Menu_close" ID="{8B0AD803-F7F5-4DC2-8D09-1307E738B106}">
+									<Language>SFX</Language>
+									<AudioFile>UI\Menu_close.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="225588066"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Menu_close" ID="{8B0AD803-F7F5-4DC2-8D09-1307E738B106}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Menu_open" ID="{897D4236-DA6F-468E-89C7-06EFC62A5D4D}" ShortID="357646670">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FE92265-98BF-4345-A200-8399D2C25DA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F50FA56-03F1-478B-AD8F-EC0135ABF5D2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Menu_open" ID="{2A0E8BF0-F856-4A3D-AD05-B1F6A5F94F07}">
+									<Language>SFX</Language>
+									<AudioFile>UI\Menu_open.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="873334827"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Menu_open" ID="{2A0E8BF0-F856-4A3D-AD05-B1F6A5F94F07}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Open_Close_QuestRoll" ID="{6E02AE4A-0B88-43F3-B887-45047D71F687}" ShortID="388914253">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FE92265-98BF-4345-A200-8399D2C25DA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F50FA56-03F1-478B-AD8F-EC0135ABF5D2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Open_Close_QuestRoll" ID="{E5F70A2B-823D-4BF9-AAFB-5362F24809CC}">
+									<Language>SFX</Language>
+									<AudioFile>UI\Open_Close_QuestRoll.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="990098536"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Open_Close_QuestRoll" ID="{E5F70A2B-823D-4BF9-AAFB-5362F24809CC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

@@ -8,7 +8,7 @@
 						<State Name="None" ID="{99EE465A-8125-4FB7-A1E5-3F3EF9CE2388}"/>
 						<State Name="Cave" ID="{FAACF4D9-EDC4-4536-94A1-C6D8A3D968B8}"/>
 						<State Name="Desert" ID="{EC79763B-C2D7-440E-BF84-9DB8D6FF8B74}"/>
-						<State Name="Dungeon" ID="{FBA39037-B448-47DA-AA7A-8BA51310FEB8}"/>
+						<State Name="Forest" ID="{FBA39037-B448-47DA-AA7A-8BA51310FEB8}"/>
 						<State Name="Village" ID="{77151BA5-EA6A-4312-AE5B-79FB18A5751B}"/>
 					</ChildrenList>
 				</StateGroup>

@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E134CD68-D01C-4F33-9D59-FBE1C1430A3B}" SchemaVersion="110">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{E134CD68-D01C-4F33-9D59-FBE1C1430A3B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E134CD68-D01C-4F33-9D59-FBE1C1430A3B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Weapon_Type" ID="{01607634-98DF-40A2-B771-EB930FC9F89E}">
+					<ChildrenList>
+						<Switch Name="Sword" ID="{239481F3-FE9E-4CCC-A03C-5FE8E27782D8}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Surface_Type" ID="{92922769-3099-4198-8CBA-FE80E17A8D30}">
+					<ChildrenList>
+						<Switch Name="Stone" ID="{34AA9BDF-3F04-425E-AC15-4E142B68E2F7}"/>
+						<Switch Name="Grass" ID="{4F98319D-FDCB-49E4-9282-D85EEB5CCCB6}"/>
+						<Switch Name="Water" ID="{8DB8B320-48D8-4305-9432-CFEB2A69DDAD}"/>
+						<Switch Name="Wood" ID="{82DB8212-1F10-4B86-8B2E-F04108626819}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

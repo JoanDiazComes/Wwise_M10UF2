@@ -3,8 +3,27 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{4C301C8A-018E-4344-874C-AF7E7C86888B}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="MenuSlider_Volume" ID="{BE4182D2-6B6F-4E9C-80E3-33DC04F44F6E}"/>
-				<GameParameter Name="Time_OfDay" ID="{57E31383-10A4-43C2-82F0-09775EE1FD29}"/>
+				<GameParameter Name="MenuSlider_Volume" ID="{BE4182D2-6B6F-4E9C-80E3-33DC04F44F6E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Time_OfDay" ID="{57E31383-10A4-43C2-82F0-09775EE1FD29}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="24"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="PlayerMovementSpeed" ID="{D7274727-9675-4CAA-925A-BBAB9A6B0CB0}">
+					<PropertyList>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MenuSlider_Music" ID="{CE8E5126-2D60-4428-A2E9-CE99F760C544}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

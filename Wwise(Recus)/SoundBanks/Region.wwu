@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{00FD1E0C-5103-48CF-B7C4-6F1AEF3FB13D}" SchemaVersion="110" RootDocumentID="{4256A3CC-635A-4948-8BE9-E98B890EA74A}" ParentDocumentID="{4256A3CC-635A-4948-8BE9-E98B890EA74A}">
+	<SoundBanks>
+		<WorkUnit Name="Region" ID="{00FD1E0C-5103-48CF-B7C4-6F1AEF3FB13D}" OwnerID="{4256A3CC-635A-4948-8BE9-E98B890EA74A}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="Cave" ID="{1D78A430-F00F-46F6-8B8F-8AF8C27FACAB}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Desert" ID="{32CD8BF4-3D36-409A-B27B-103FBB59317E}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Forest" ID="{1D87011D-BF56-4382-A019-4236782A2736}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Village" ID="{087EB638-74B1-40F5-9490-2A15C52035A7}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

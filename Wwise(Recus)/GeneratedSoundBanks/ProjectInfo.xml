@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Wwise(Recus)" GUID="{C04778BC-4A24-4A93-97B7-3D339C7B4006}" Generator="2022.1.4.8202"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{C5D6575D-3AB2-4B93-BA8A-95E51421E86C}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{E2068905-6FC5-428F-BA93-57B4E17C2A08}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{0E7F4976-A5B3-48B7-4C04-B2E683A4D773}</FileHash>
+</ProjectInfo>

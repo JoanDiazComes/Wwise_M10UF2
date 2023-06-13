@@ -3,7 +3,27 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{E40FD37E-6EC8-4341-9E46-7B8A337F9E52}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="E:\RECUS\DAVID\UF2\Wwise(Recus)\Wwise(Recus)\Originals\SFX\UI\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="E:\RECUS\DAVID\UF2\Wwise(Recus)\Wwise(Recus)\Originals\SFX\Ambient_Emitters\"/>
+				<Property Name="Event Action List\{0208215B-7EA3-4883-8B19-B4EF47C8FF8B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{09E07D15-CC1E-4567-B22C-C5657766CDB9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{0F23FB6B-6065-42A4-8D72-59390DE0F0DC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{17811FF2-FCC2-44CC-A335-373B9BC71CB2}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{19FEEA23-CC79-4DFE-89B3-A2878A1981C0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1A9ABAC2-030F-4533-8693-EEB1663665DC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2FE2BE61-C1EF-4480-B0A0-886CFF11427C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{32F7CBBC-C4F1-4F32-BCDB-C35F4EBB2D6A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{38D0206F-813D-4DAE-88C6-6922FDC1A45D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4A080417-F56C-4EFC-B486-6D192A0386EC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5223B899-A049-4901-833F-5BEAFAE3554F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{643635A5-FE25-4692-850D-AF52441BB299}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{652C2160-E49C-46D1-834E-B3FCADCEE5BC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6C9B40AA-D419-4DFA-A8B7-E58047E4714B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7A49797B-AD5C-45FE-AAD1-3B9A7052FDCF}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9141FD56-F14C-47BC-9B38-553B5910589D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9160A0F3-4F28-4918-8841-15E9F88A0C52}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{949040D7-D497-4533-9824-B9B5B25A2225}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9F9E5CEE-B962-4B0B-880E-C37A4B3316E5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D47D5B31-DA51-459C-9E87-0024BCE3C0B4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -19,6 +39,9 @@
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>

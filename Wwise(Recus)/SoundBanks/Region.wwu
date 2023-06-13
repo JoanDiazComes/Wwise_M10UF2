@@ -4,22 +4,35 @@
 		<WorkUnit Name="Region" ID="{00FD1E0C-5103-48CF-B7C4-6F1AEF3FB13D}" OwnerID="{4256A3CC-635A-4948-8BE9-E98B890EA74A}" PersistMode="Nested">
 			<ChildrenList>
 				<SoundBank Name="Cave" ID="{1D78A430-F00F-46F6-8B8F-8AF8C27FACAB}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Region_Cave" ID="{0208215B-7EA3-4883-8B19-B4EF47C8FF8B}" WorkUnitID="{7DF0C7E1-577A-4551-98AD-0C01D73FD73D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destroy_stone" ID="{19FEEA23-CC79-4DFE-89B3-A2878A1981C0}" WorkUnitID="{7DF0C7E1-577A-4551-98AD-0C01D73FD73D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Desert" ID="{32CD8BF4-3D36-409A-B27B-103FBB59317E}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Region_Desert" ID="{17811FF2-FCC2-44CC-A335-373B9BC71CB2}" WorkUnitID="{7DF0C7E1-577A-4551-98AD-0C01D73FD73D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destroy_grass" ID="{9160A0F3-4F28-4918-8841-15E9F88A0C52}" WorkUnitID="{7DF0C7E1-577A-4551-98AD-0C01D73FD73D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Forest" ID="{1D87011D-BF56-4382-A019-4236782A2736}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Region_Forest" ID="{0F23FB6B-6065-42A4-8D72-59390DE0F0DC}" WorkUnitID="{7DF0C7E1-577A-4551-98AD-0C01D73FD73D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Emitter_Lava" ID="{643635A5-FE25-4692-850D-AF52441BB299}" WorkUnitID="{7DF0C7E1-577A-4551-98AD-0C01D73FD73D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Village" ID="{087EB638-74B1-40F5-9490-2A15C52035A7}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Emitter_birds" ID="{5223B899-A049-4901-833F-5BEAFAE3554F}" WorkUnitID="{7DF0C7E1-577A-4551-98AD-0C01D73FD73D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Region_Village" ID="{4A080417-F56C-4EFC-B486-6D192A0386EC}" WorkUnitID="{7DF0C7E1-577A-4551-98AD-0C01D73FD73D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Emitter_torch" ID="{32F7CBBC-C4F1-4F32-BCDB-C35F4EBB2D6A}" WorkUnitID="{7DF0C7E1-577A-4551-98AD-0C01D73FD73D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

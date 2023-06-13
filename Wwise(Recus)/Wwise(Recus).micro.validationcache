@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="110">
 	<ValidationCacheItem File="E:\RECUS\DAVID\UF2\Wwise(Recus)\Wwise(Recus)\Wwise(Recus).wproj" DateLow="1686588601" DateHigh="0"/>
+	<ValidationCacheItem File="E:\RECUS\DAVID\UF2\Wwise(Recus)\Wwise(Recus)\Wwise(Recus).micro.wsettings" DateLow="1686590890" DateHigh="0"/>
 	<ValidationCacheItem File="E:\RECUS\DAVID\UF2\Wwise(Recus)\Wwise(Recus)\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1686241948" DateHigh="0"/>
 	<ValidationCacheItem File="E:\RECUS\DAVID\UF2\Wwise(Recus)\Wwise(Recus)\Virtual Acoustics\Default Work Unit.wwu" DateLow="1686588601" DateHigh="0"/>
 	<ValidationCacheItem File="E:\RECUS\DAVID\UF2\Wwise(Recus)\Wwise(Recus)\Triggers\Default Work Unit.wwu" DateLow="1686588601" DateHigh="0"/>
